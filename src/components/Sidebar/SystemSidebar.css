@@ -1,0 +1,47 @@
+.sidebar {
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+.sidebar-search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.sidebar-item:hover {
+    background-color: #adc5e9;
+}
+
+.sidebar-subitem {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.sidebar-subitem:hover {
+    background-color: #adc5e9;
+}
+
+.arrow {
+    float: right;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.arrow-down {
+    transform: rotate(45deg);
+}
+
+.arrow-up {
+    transform: rotate(225deg);
+}
